@@ -1,0 +1,20 @@
+
+public class Multa {
+
+	public static void main(String[] args) {
+		/*
+		 * Desafio 1:
+		 * 
+		 * Crie um programa Java que leia a velocidade de um carro e a velocidade máxima
+		 * para a via:
+		 * 
+		 * 1. Informe 50 reais se estiver até 10km/h acima;
+		 * 
+		 * 2. Informe 100 reais se estiver entre 11km/h e 30km/h acima;
+		 * 
+		 * 3. Informe 300 reais se estiver acima de 31km/h acima.
+		 */
+
+	}
+
+}

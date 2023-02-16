@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\nanda\OneDrive\Documentos\FIAP\Java Xpert\.metadata\.plugins\org.eclipse.jdt.core
+1768126710.index
+1865797976.index
+3959137331.index
+4285179927.index
+1142215621.index

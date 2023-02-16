@@ -1,0 +1,47 @@
+import java.sql.Date;
+import java.time.LocalDate;
+import java.time.Year;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.Scanner;
+
+public class exerc1 {
+
+	public static void main(String[] args) {
+		/*
+		 * Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e
+		 * dias e mostre-a expressa em dias. Leve em consideração o ano com 365 dias e o
+		 * mês com 30. (Ex: 3 anos, 2 meses e 15 dias = 1170 dias.)
+		 */
+		
+		Scanner entrada = new Scanner(System.in);
+		Date data = new Date();
+		GregorianCalendar dataCal = new GregorianCalendar();
+		dataCal.setTime(data);
+			
+		
+		System.out.println("-----------CALCULADORA DE DIAS DE VIDA---------------");
+		System.out.println("Informe seu Ano de nascimento: ");
+		int ano = entrada.nextInt();
+		
+		System.out.println("Informe seu mes de nascimento: ");
+		int mes = entrada.nextInt();
+		
+		System.out.println("Informe sua data de nascimento: ");
+		int dia = entrada.nextInt();
+		
+		int anoDias = (Year.now().minus(ano) * 365);
+		int mesDias = ((dataCal.get(Calendar.MONTH) - mes) * 30);
+		int dias = (dataCal.get(Calendar.DAY_OF_MONTH) - dia) ;
+		
+		int totalDias = (anoDias + mesDias + dias);
+		
+		System.out.print("O total de dias até hoje são: " + totalDias);
+		System.out.println("-----------------------------------------------------");
+		
+		
+		
+		
+	}
+
+}

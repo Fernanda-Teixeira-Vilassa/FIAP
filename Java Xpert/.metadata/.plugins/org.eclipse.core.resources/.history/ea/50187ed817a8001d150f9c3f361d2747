@@ -1,0 +1,19 @@
+package tipos;
+
+import java.util.Scanner;
+
+public class CalculadoraIdade {
+
+	public static void main(String[] args) {
+		int anoAtual = 2023;
+				
+		System.out.println("---------------Calculadora de Idade---------------");
+
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Informe seu Ano de Nascimento: ");
+		int anoNasc = entrada.nextInt();
+		
+		int idade = (anoAtual - anoNasc);
+		System.out.println("Você tem ou fará " + idade + " anos este ano.");
+		
+	}
