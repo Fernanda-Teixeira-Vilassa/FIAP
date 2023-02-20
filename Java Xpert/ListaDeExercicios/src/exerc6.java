@@ -15,7 +15,7 @@ public class exerc6 {
 		System.out.println("Informe um numero inteiro: ");
 		int num = entrada.nextInt();
 		
-		int antecessor = num - 1;
+		int antecessor = num -1;
 		int sucessor = num +1;
 		
 		System.out.println("O antecessor e " + antecessor + ", o sucessor e " + sucessor + ".");
